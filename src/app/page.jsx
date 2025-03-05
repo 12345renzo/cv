@@ -2,7 +2,7 @@
 import Navbar from "@/components/Navbar";
 import inicio from "../style/inicio.module.css";
 import Footer from "@/components/Footer";
-import { useEffect, useState } from "react";
+import React ,{ useEffect, useState } from "react";
 import { Grid2, Typography } from "@mui/material";
 
 function page() {
