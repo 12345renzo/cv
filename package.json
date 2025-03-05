@@ -1,0 +1,30 @@
+{
+  "name": "mi_cv",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.13.3",
+    "@emotion/styled": "^11.13.0",
+    "@mui/icons-material": "^6.4.6",
+    "@mui/material": "^6.0.2",
+    "animate.css": "^4.1.1",
+    "axios": "^1.8.1",
+    "formik": "^2.4.6",
+    "next": "14.2.9",
+    "node-mailjet": "^6.0.6",
+    "react": "^18",
+    "react-dom": "^18",
+    "sweetalert2": "^11.17.2",
+    "yup": "^1.6.1"
+  },
+  "devDependencies": {
+    "eslint": "^8",
+    "eslint-config-next": "14.2.9"
+  }
+}

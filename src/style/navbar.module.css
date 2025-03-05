@@ -1,0 +1,82 @@
+.navbar{
+    background: transparent !important;
+    box-shadow: none !important;
+    position: absolute !important; 
+    width: 100%;/* Para que se coloque sobre el video */
+    top: 0;
+    left: 0;
+    z-index: 1; 
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.boton:hover{
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.8)
+}
+.lista{
+    color: white !important;
+    width: 200px !important; 
+}
+.boton{
+    color:white;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: none !important;
+    font-size: 15px;
+    padding: 0 5px;
+    margin: 0 5px;
+    letter-spacing: 2px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.css-1jmxzwo-MuiToolbar-root {
+    padding: 0 24px;
+    box-sizing: border-box;
+    margin: 5px 0;
+}
+.img{
+    justify-content: center;
+    align-items: center;
+}
+.option{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 4.5rem;
+}
+
+.menu{
+    display: none;
+    flex-grow: 0;
+}
+.menuoption{
+    margin-top: 45px;
+}
+.item{
+    justify-content: center;
+    margin: 8px 4px;
+}
+.boton2{
+    font-size: 1.25rem;
+    color:white;
+    font-weight: 520;
+    text-decoration: none;
+}
+.boton2:hover{
+    font-weight: bold;
+}
+.item:hover{
+    background-color: black;
+    color: white;
+    border-radius: 25px;
+    font-weight: bold;
+}

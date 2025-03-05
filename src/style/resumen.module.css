@@ -1,0 +1,56 @@
+.arro {
+  display: inline-block;
+  width: 24px;
+  height: 16px;
+  background-color: #009e66;
+  clip-path: polygon(0% 75%, 50% 75%, 50% 100%, 100% 50%, 50% 0%, 50% 25%, 0% 25%);
+  margin: 32px 0 0 0;
+}
+
+.edu {
+  color: #f0f0f0;
+  font-size: 26px;
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+
+.estu {
+  font-size: 20px;
+  color: #f0f0f0;
+  font-weight: 400;
+  margin-bottom: 9px;
+}
+
+.alma {
+  color: #9f9f9f;
+  font-size: 14px;
+  margin-bottom: 7px;
+}
+
+.lore {
+  font-size: 14px;
+  color: #9f9f9f;
+  margin: 3px 0;
+}
+
+.sub{
+  color: #9f9f9f;
+  font-size: 15px;
+  margin-bottom: 0px;
+}
+
+.mis{
+  color: #f0f0f0;
+  font-size: 38px;
+  font-weight: 600;
+}
+.ing{
+  margin: 15px;
+}
+
+@media (max-width: 530px) {
+  .ing{
+    width: 35px;
+    height: 45px;
+  }
+}

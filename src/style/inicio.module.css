@@ -1,0 +1,68 @@
+.wrappey {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+  opacity: 0.8;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 90%;
+  padding: 0 15px;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  z-index: 2;
+}
+
+.nombre {
+  margin: 0 0 34px;
+  font-size: 64px;
+  color: white;
+}
+
+.soy {
+  font-size: 32px;
+}
+
+@media (max-width: 400px) {
+  .nombre {
+    font-size: 54px;
+  }
+
+  .soy {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 350px) {
+  .nombre {
+    font-size: 44px;
+  }
+
+  .soy {
+    font-size: 20px;
+  }
+}
