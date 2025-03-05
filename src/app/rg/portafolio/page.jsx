@@ -19,6 +19,7 @@ function Porpage() {
         >
           {proyecto.map((pro) => (
             <Port
+              key={pro.lik}
               ruta={pro.ruta}
               titu={pro.titu}
               lore={pro.lore}
