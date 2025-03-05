@@ -5,28 +5,28 @@
 }
 
 .controles {
-    background-color: #161616;
-    margin-bottom: 25px;
+    background-color: #161616 !important;
+    margin-bottom: 25px !important;
 }
 
 .inputs {
-    padding: 5.5px 20px;
-    color: #9f9f9f;
-    border-bottom: 1px solid #1d1d1d;
+    padding: 5.5px 20px !important;
+    color: #9f9f9f !important;
+    border-bottom: 1px solid #1d1d1d !important;
 }
 
 .inputs:hover {
-    border-bottom: 1px solid #1d1d1d;
+    border-bottom: 1px solid #1d1d1d !important;
 }
 
 .enviar{
-    text-transform: none;
-    color: white;
-    font-weight: 400;
-    padding: 10px 26px;
-    background-color: #009e66;
-    border-radius: 25px;
-    margin-bottom: 25px;
+    text-transform: none !important;
+    color: white !important;
+    font-weight: 400 !important;
+    padding: 10px 26px !important;
+    background-color: #009e66 !important;
+    border-radius: 25px !important;
+    margin-bottom: 25px !important;
 }
 
 .peque{
