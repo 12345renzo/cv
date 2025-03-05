@@ -1,11 +1,12 @@
-"use client";
+"use client"; // Asegúrate de tener esta línea si estás usando el componente en cliente
 import Navbar from "@/components/Navbar";
 import inicio from "../style/inicio.module.css";
 import Footer from "@/components/Footer";
-import React ,{ useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Grid2, Typography } from "@mui/material";
 
-function page() {
+// Cambié el nombre de la función a "Page"
+function Page() {
   const names = ["Ing. Informatico", "Full Stack", "Software Development"];
   const [currentName, setCurrentName] = useState("");
   const [currentNameIndex, setCurrentNameIndex] = useState(0);
@@ -74,4 +75,5 @@ function page() {
     </Grid2>
   );
 }
-export default page;
+
+export default Page; // Exporta el componente como "Page"
