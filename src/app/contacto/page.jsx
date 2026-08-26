@@ -1,7 +1,7 @@
 "use client";
 import Main from "@/components/Main";
 import React from "react";
-import conta from "../../../style/contacto.module.css";
+import conta from "../../style/contacto.module.css";
 import {
   Box,
   Button,
@@ -35,16 +35,15 @@ function Capepage() {
       subject: Yup.string().required("Campo Requerido"),
       mensaje: Yup.string().required("Campo Requerido"),
     }),
-    onSubmit: (values, { setSubmitting }) => {
-      //console.log(values);
-      const valor = enviar(values);
-      if (valor) {
+    onSubmit: async (values, { setSubmitting }) => {
+      try {
+        await enviar(values);
         Swal.fire({
           title: "Sistema",
           text: "Mensaje Enviado",
           icon: "success",
         });
-      } else {
+      } catch (error) {
         Swal.fire({
           title: "Sistema",
           text: "Mensaje no Enviado",
@@ -426,7 +425,7 @@ function Capepage() {
                 </Grid2>
                 <Grid2 size={12} sx={{ padding: "12px 0 12px 22px" }}>
                   <h4 className={conta.olp}>Ubicación</h4>
-                  <p className={conta.op}>Av. San Martin 294</p>
+                  <p className={conta.op}>Av. Universitario 294</p>
                 </Grid2>
                 <Grid2 size={12} sx={{ padding: "12px 0 12px 22px" }}>
                   <h4 className={conta.olp}>Llámame</h4>

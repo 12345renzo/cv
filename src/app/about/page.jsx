@@ -1,6 +1,6 @@
 import Main from "@/components/Main";
 import React from "react";
-import about from "../../../style/about.module.css";
+import about from "../../style/about.module.css";
 import { Button, Container, Grid2 } from "@mui/material";
 import Link from "next/link";
 import Image from "next/image";
@@ -22,7 +22,7 @@ function page() {
               }}
             >
               <Image
-                src="/img/foto.jpeg"
+                src="/img/foto.webp"
                 alt="imgen1"
                 width={350}
                 height={530}
@@ -43,22 +43,21 @@ function page() {
               </Grid2>
               <Grid2 size={12}>
                 <h6 className={about.title}>
-                  Soy Renzo Gonzales Asencios, Ing. Informatico y Desarrollador
-                  de Software
+                  Paul Renzo Gonzales Asencios
                 </h6>
               </Grid2>
               <Grid2 size={12} sx={{ borderBottom: "2px #9f9f9f solid" }}>
                 <p className={about.lore}>
-                  Soy un estudiante de Ingeniería Informática en mi septimo
-                  ciclo, con una formación técnica en Desarrollo de Software. Me
-                  apasiona transformar ideas y conceptos en soluciones
-                  tecnológicas útiles y efectivas. Con experiencia en múltiples
-                  lenguajes de programación, busco oportunidades para aplicar
-                  mis habilidades y contribuir al éxito de una empresa. Mi
-                  enfoque se centra en la mejora continua, lo que me permite
-                  adaptarme rápidamente a nuevas tecnologías y entregar
-                  resultados que cumplen con las expectativas del mercado
-                  actual.
+                  Soy Paul Renzo Gonzales Asencios, estudiante de Ingeniería
+                  Informática en el décimo ciclo y egresado de Desarrollo de
+                  Software por SENATI. Trabajo con el ecosistema JavaScript —
+                  React, Next.js, Angular, NestJS, TypeScript — y bases de
+                  datos como PostgreSQL, MySQL y SQL Server.                   He desarrollado diferentes aplicaciones web desde el lado
+                  del frontend hasta el backend, aplicando autenticación
+                  JWT, TanStack Query y Tailwind CSS. Cada proyecto me ha
+                  enseñado a combinar lo técnico con lo práctico, y eso es
+                  lo que busco seguir aprendiendo en mi siguiente reto
+                  profesional.
                 </p>
               </Grid2>
               <Grid2
@@ -96,7 +95,7 @@ function page() {
                   }}
                 >
                   <p className={about.tem}>
-                    <span className={about.special}>Edad:</span>22
+                    <span className={about.special}>Edad:</span>23
                   </p>
                 </Grid2>
                 <Grid2
@@ -106,7 +105,7 @@ function page() {
                   }}
                 >
                   <p className={about.tem}>
-                    <span className={about.special}>De:</span>Huacho,Lima,Perú
+                    <span className={about.special}>De:</span>Comas, Lima, Perú
                   </p>
                 </Grid2>
               </Grid2>

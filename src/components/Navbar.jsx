@@ -49,7 +49,7 @@ function Navbar() {
                 mr: 1,
               }}
             >
-              <Image alt="Logo" src="/img/logo.png" width={200} height={58} />
+              <Image alt="Logo" src="/img/logo.webp" width={200} height={58} />
             </Box>
             <BotonesNav />
           </Grid2>

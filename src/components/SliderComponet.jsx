@@ -26,7 +26,7 @@ function SliderComponet({ mobileOpen, handleDrawerToggle }) {
           mr: 1,
         }}
       >
-        <Image alt="Logo" src="/img/logo.png" width={200} height={58} />
+        <Image alt="Logo" src="/img/logo.webp" width={200} height={58} />
       </Box>
       <Divider
         sx={{
@@ -38,7 +38,7 @@ function SliderComponet({ mobileOpen, handleDrawerToggle }) {
         <ListItem disablePadding sx={{ my: 1.25 }}>
           <ListItemButton sx={{ textAlign: "center" }} className={nav.lista}>
             <ListItemText sx={{ fontWeight: "650" }}>
-              <Link href="/rg/about" className={nav.boton}>
+              <Link href="/about" className={nav.boton}>
                 ACERCA DE MI
               </Link>
             </ListItemText>
@@ -47,7 +47,7 @@ function SliderComponet({ mobileOpen, handleDrawerToggle }) {
         <ListItem disablePadding sx={{ my: 1.25 }}>
           <ListItemButton sx={{ textAlign: "center" }} className={nav.lista}>
             <ListItemText sx={{ fontWeight: "650" }}>
-              <Link href="/rg/resumen" className={nav.boton}>
+              <Link href="/resumen" className={nav.boton}>
                 RESUMEN
               </Link>
             </ListItemText>
@@ -56,7 +56,7 @@ function SliderComponet({ mobileOpen, handleDrawerToggle }) {
         <ListItem disablePadding sx={{ my: 1.25 }}>
           <ListItemButton sx={{ textAlign: "center" }} className={nav.lista}>
             <ListItemText sx={{ fontWeight: "650" }}>
-              <Link href="/rg/portafolio" className={nav.boton}>
+              <Link href="/portafolio" className={nav.boton}>
                 PORTAFOLIO
               </Link>
             </ListItemText>
@@ -65,7 +65,7 @@ function SliderComponet({ mobileOpen, handleDrawerToggle }) {
         <ListItem disablePadding sx={{ my: 1.25 }}>
           <ListItemButton sx={{ textAlign: "center" }} className={nav.lista}>
             <ListItemText sx={{ fontWeight: "650" }}>
-              <Link href="/rg/contacto" className={nav.boton}>
+              <Link href="/contacto" className={nav.boton}>
                 CONTACTO
               </Link>
             </ListItemText>

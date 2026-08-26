@@ -1,6 +1,6 @@
 import Main from "@/components/Main";
 import Port from "@/components/Port";
-import por from "../../../style/portafolio.module.css";
+import por from "../../style/portafolio.module.css";
 import { Container, Grid2 } from "@mui/material";
 import proyecto from "@/data/proyecto";
 
